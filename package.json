@@ -153,8 +153,5 @@
     "presets": [
       "react-app"
     ]
-  },
-  "devDependencies": {
-    "sass-loader": "^11.1.1"
   }
 }
