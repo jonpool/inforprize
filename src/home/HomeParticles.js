@@ -21,8 +21,8 @@ const SlideList = [
     {
         textPosition: 'text-center',
         category: '',
-        title: 'Creative One Page',
-        description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
+        title: 'Digital Agency',
+        description: 'That Helps You To Go Ahead.',
         buttonText: 'Contact Us',
         buttonLink: '/contact'
     }
@@ -131,7 +131,7 @@ class HomeParticles extends Component{
                                 </Scrollspy>
                             </nav>
                             <div className="header-btn">
-                                <a className="rn-btn" href="https://themeforest.net/checkout/from_item/25457315?license=regular">
+                                <a className="rn-btn" href="https://inforprize.com">
                                     <span>buy now</span>
                                 </a>
                             </div>
