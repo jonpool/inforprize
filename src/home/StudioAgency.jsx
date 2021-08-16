@@ -19,8 +19,8 @@ const SlideList = [
     {
         textPosition: 'text-left',
         category: '',
-        title: 'Welcome Video Studio',
-        description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
+        title: 'We know how fast the world evolves!',
+        description: 'And we are here to help your business keep up with all these advances!',
         buttonText: 'Contact Us',
         buttonLink: '/contact'
     }

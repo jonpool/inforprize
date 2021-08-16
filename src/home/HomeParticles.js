@@ -104,7 +104,7 @@ class HomeParticles extends Component{
         
         return(
             <Fragment>
-                <Helmet pageTitle="Home Particles" />
+                <Helmet pageTitle="Inforprize" />
 
                 {/* Start Header Area  */}
                 <header className="header-area formobile-menu header--fixed default-color">
@@ -173,7 +173,7 @@ class HomeParticles extends Component{
                             }}
                         />
                     </div>
-                    <div className="bg_image bg_image--27">
+                    <div className="bg_image bg_image--29">
                             {SlideList.map((value , index) => (
                                 <div className="slide slide-style-2 slider-paralax d-flex align-items-center justify-content-center" key={index}>
                                     <div className="container">
@@ -191,6 +191,7 @@ class HomeParticles extends Component{
                                 </div>
                             ))}
                         </div>
+                        
                 </div>
                 {/* End Slider Area   */}
 
