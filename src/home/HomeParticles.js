@@ -173,7 +173,7 @@ class HomeParticles extends Component{
                             }}
                         />
                     </div>
-                    <div className="bg_image bg_image--29">
+                    <div className="bg_image bg_image--27">
                             {SlideList.map((value , index) => (
                                 <div className="slide slide-style-2 slider-paralax d-flex align-items-center justify-content-center" key={index}>
                                     <div className="container">
@@ -202,7 +202,7 @@ class HomeParticles extends Component{
                             <div className="col-lg-6 col-12">
                                 <div className="section-title text-left mb--30">
                                     <h2>Our Services</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>We work with business & provide solution to clients with their business problem.</p>
                                 </div>
                             </div>
                         </div>
@@ -229,7 +229,7 @@ class HomeParticles extends Component{
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">About Us</h2>
-                                            <p className="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#alteration">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,</p>
+                                            <p className="description">The thing that motivates us is a very common form of motivation. And that is, with other folk counting on me, it's so easy to be motivated. <a href="#alteration">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,</p>
                                         </div>
                                         <div className="row mt--30">
                                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">

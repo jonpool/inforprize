@@ -90,6 +90,8 @@
         .logo {
             a {
                 img {
+                    margin-left: 250px;
+                    height: 75px;
                     @media #{$sm-layout} {
                         width: 240px;
                     }
@@ -255,6 +257,7 @@
                     img {
                         height: 50px;
                         &.logo-1 {
+                            
                             display: none;
                         }
                         &.logo-2 {
@@ -287,7 +290,7 @@
         .logo {
             a {
                 img {
-                    height: 58px;
+                    height: 232px;
                     width: auto !important;
                     @media #{$large-mobile} {
                         height: auto;
@@ -308,6 +311,7 @@
     flex-wrap: wrap;
     .header-btn {
         margin-left: 50px;
+        margin-right: 200px;
         @media #{$large-mobile} {
             margin-left: 0;
         }
