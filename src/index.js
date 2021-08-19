@@ -8,7 +8,7 @@ import './index.scss';
 import PageScrollTop from './component/PageScrollTop';
 
 // Home layout
-//import Demo from './page-demo/Demo';
+import Demo from './page-demo/Demo';
 import MainDemo from './home/MainDemo';
 import Startup from './home/Startup';
 import Paralax from './home/Paralax';
@@ -68,11 +68,11 @@ class Root extends Component{
                 <PageScrollTop>
                     <Switch>
                         <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomeParticles}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/Demo`} component={Demo}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/dark-main-demo`} component={DarkMainDemo}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/startup`} component={Startup}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/paralax`} component={Paralax}/>
-
                         <Route exact path={`${process.env.PUBLIC_URL}/digital-agency`} component={DigitalAgency}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/creative-agency`} component={CreativeAgency}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/personal-portfolio`} component={PersonalPortfolio}/>
@@ -111,8 +111,6 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/google-map`} component={GoogleMap}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/columns`} component={Columns}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/pricing-table`} component={PricingTable}/>
-
-
                         
                         <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
                         <Route component={error404}/>

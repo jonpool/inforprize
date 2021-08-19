@@ -173,7 +173,7 @@ class HomeParticles extends Component{
                             }}
                         />
                     </div>
-                    <div className="bg_image bg_image--27">
+                    <div className="bg_image bg_image--34">
                             {SlideList.map((value , index) => (
                                 <div className="slide slide-style-2 slider-paralax d-flex align-items-center justify-content-center" key={index}>
                                     <div className="container">
